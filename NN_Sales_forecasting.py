@@ -1,3 +1,5 @@
+import os
+os.system("pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==2.0.1+cpu torchvision==0.15.2+cpu")
 import torch
 from torch.utils.data import Dataset, DataLoader
 import torch.nn as nn
